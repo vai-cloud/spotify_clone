@@ -1,0 +1,108 @@
+.body
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.brand 
+{
+    display: flex;
+    background-color:grey ;
+}
+.brand h2
+{
+    padding: 5px 2px;
+    margin-top: 20px;
+   font-size: 20px;
+}
+.brand img
+{
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+.brand ul 
+{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.brand ul li
+{
+    padding-left: 10px;
+}
+
+.bottom
+{
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+color: white;
+
+}
+
+.gifANDname
+{
+    position: absolute;
+    left: 9vw;
+    padding-top: 50px;
+    display: flex;
+}
+.play-icons
+{
+    padding-left: 23vw;
+}
+.container
+{
+    background-color: black;
+    height: 70vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 70vw;
+    margin-left: 15vw;
+    background-image :url("brand_photos/spotifycontimg.jpg") ;
+    border-radius: 20px;
+    padding: 20px;
+}
+.song-Item
+{
+   
+background-color: white;
+width: 25vw;
+border-radius: 10px;
+padding: 4px;
+align-items: center;
+justify-content: space-between;
+display: flex;
+margin-bottom: 7px;
+
+}
+.song-Item h1
+{
+padding: 30px;
+}
+.song-Item img
+{
+    height: 25px;
+    width: 60px;
+}
+.bottom input
+{
+    width: 80vw;
+    height: 40px;
+}
+.bottom
+{
+ display: flex;  
+ flex-direction: column; 
+ margin-left: 0px;
+ margin-right: 0px;
+}
+.bottom img
+{
+    height: 20px;
+      
+}
